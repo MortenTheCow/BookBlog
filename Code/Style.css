@@ -2,33 +2,67 @@
 {
 width: 30%;
 Height: 100%;
-background-color: #2a3538;
 float: Left;
+background-color: #3e4b4e;
 position: fixed;
 }
 .Filters
 {
-    width: 100%;
+    width: 30%;
     height: 100%;
-    background-color: #3e4b4e ;
     position: fixed;
+    color: darkgray;
 }
 #FilterText
 {
     font-size: 20px;
     margin-right: 100% ;
+    color: darkgray;
+    margin-left: 10%;
 }
 .CreateButton
 {
     width: 80%;
     height: 10%;
-    border-radius: 6px;
+    border-radius: 20px;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 10%;
-    position: fixed;
+    margin-bottom: 10%;
+    background-color: #2a3538;
+    color: darkgray;
+}
+.CreateButton:hover
+{
+    background-color: #484f51;
 }
 .Mainside 
 {
 background-color: #282f38;
+}
+.TextHeader
+{
+color: darkgrey;
+
+}
+.ShowMoreLanButton
+{
+width: 50%;
+Height: 5%;
+margin-right: 25%;
+margin-left: 25%;
+margin-top: 10px;
+color: darkgray;
+background-color: #2a3538;
+}
+.ShowMoreLanButton:hover
+{
+    background-color: #3e4b4e;
+}
+.Mainside
+{
+    width: 100%;
+    height: 100%;
+    background-color: #2a3538;
+
 }

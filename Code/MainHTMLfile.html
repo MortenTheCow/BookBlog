@@ -3,8 +3,9 @@
         <title></title>
         <meta>
         <link rel="stylesheet" href="Style.css">
-        <link rel="stylesheet" href="script.js">
-        <link rel="stylesheet" href="Backend.py">
+        <link rel="Script" href="script.js">
+        <link rel="Backend" href="Backend.py">
+        <link rel="Data" href="Data.json">
     </head>
     <body class="MainSide">
         <div id="LeftSidenav" class="LeftSidenav">
@@ -14,15 +15,16 @@
                 </button>
             </a>
             <div id="Filters" class="Filters">
-            <H1 class="TextHeader">Filter:</H1>
+            <H1 class="TextHeader">Filters:</H1>
                 <p>Languages:</p>
-                <input type="checkbox" name="English" id="FilterText">
-                <label for="English">English</label>
-                <input type="checkbox" name="Spanish" id="FilterText">
-                <label for="Spanish">Spanish</label>
-                <input type="checkbox" name="Danish" id="FilterText">
-                <label for="Danish">Danish</label>
-                <a href="" class="LinkText">Show More Languages</a>
+                <input type="checkbox" name="English">
+                <label for="English" id="FilterText">English</label>
+                <input type="checkbox"name="Spanish">
+                <label for="Spanish" id="FilterText">Spanish</label>
+                <input type="checkbox" name="Danish">
+                <label for="Danish" id="FilterText">Danish</label>
+                <button onclick="ShowmoreLan()" class="ShowMoreLanButton">Show more Languages</button>
+
              </div>
 
         </div>
