@@ -27,8 +27,8 @@ position: fixed;
     border-radius: 20px;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 15%;
+    margin-bottom: 5%;
     background-color: #2a3538;
     color: darkgray;
 }
@@ -36,7 +36,7 @@ position: fixed;
 {
     background-color: #484f51;
 }
-.Mainside 
+.Mainside
 {
 background-color: #282f38;
 }
@@ -65,4 +65,40 @@ background-color: #2a3538;
     height: 100%;
     background-color: #2a3538;
 
+}
+.Topnav
+{
+    width: 100%;
+    height: 7%;
+    background-color: #3e4b4e;
+    vertical-align: top;
+    position: fixed;
+}
+.SmallTopNavPic
+{
+    width: 100%;
+    height: 100%;
+}
+.SmallCircle
+{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border-color: black;
+    display: flex;
+    Float: right;
+    Margin-right: 2%;
+
+}
+.SmallCircle:hover
+{
+    background-color: darkgray;
+}
+.Searchbar
+{
+    width: 35%;
+    height: 80%;
+    border-radius: 10px;
+    Margin-left: 33%;
+    margin-top: 4px;
 }
